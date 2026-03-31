@@ -1,0 +1,95 @@
+[
+  {
+    "id": "free",
+    "title": "Free Plan",
+    "description": "Perfect for beginners who want to explore basic features without any cost.",
+    "price": 0,
+    "currency": "USD",
+    "billing": "monthly",
+    "features": [
+      { "name": "Basic Access", "included": true },
+      { "name": "Community Support", "included": true },
+      { "name": "Analytics", "included": false },
+      { "name": "Custom Reports", "included": false }
+    ],
+    "badge": null
+  },
+  {
+    "id": "starter",
+    "title": "Starter",
+    "description": "A great starting plan for individuals who need essential tools and email support.",
+    "price": 5,
+    "currency": "USD",
+    "billing": "monthly",
+    "features": [
+      { "name": "Basic Access", "included": true },
+      { "name": "Email Support", "included": true },
+      { "name": "Analytics", "included": false },
+      { "name": "Custom Reports", "included": false }
+    ],
+    "badge": "New"
+  },
+  {
+    "id": "standard",
+    "title": "Standard",
+    "description": "Best for regular users who need analytics and improved support features.",
+    "price": 12,
+    "currency": "USD",
+    "billing": "monthly",
+    "features": [
+      { "name": "Full Access", "included": true },
+      { "name": "Email Support", "included": true },
+      { "name": "Analytics Dashboard", "included": true },
+      { "name": "Custom Reports", "included": false }
+    ],
+    "badge": null
+  },
+  {
+    "id": "pro",
+    "title": "Pro Plan",
+    "description": "Ideal for professionals who need advanced analytics and priority support.",
+    "price": 20,
+    "currency": "USD",
+    "billing": "monthly",
+    "features": [
+      { "name": "Full Access", "included": true },
+      { "name": "Priority Support", "included": true },
+      { "name": "Advanced Analytics", "included": true },
+      { "name": "Custom Reports", "included": true }
+    ],
+    "badge": "Most Popular"
+  },
+  {
+    "id": "business",
+    "title": "Business",
+    "description": "Designed for teams and businesses needing collaboration and full feature access.",
+    "price": 35,
+    "currency": "USD",
+    "billing": "monthly",
+    "features": [
+      { "name": "Unlimited Access", "included": true },
+      { "name": "Priority Support", "included": true },
+      { "name": "Advanced Analytics", "included": true },
+      { "name": "Custom Reports", "included": true },
+      { "name": "Team Collaboration", "included": true }
+    ],
+    "badge": null
+  },
+  {
+    "id": "enterprise",
+    "title": "Enterprise",
+    "description": "For large organizations that need complete solutions, AI insights, and dedicated support.",
+    "price": 60,
+    "currency": "USD",
+    "billing": "monthly",
+    "features": [
+      { "name": "Unlimited Access", "included": true },
+      { "name": "24/7 Dedicated Support", "included": true },
+      { "name": "AI Insights", "included": true },
+      { "name": "Custom Reports", "included": true },
+      { "name": "Team Collaboration", "included": true },
+      { "name": "Dedicated Manager", "included": true }
+    ],
+    "badge": "Best Value"
+  }
+]
